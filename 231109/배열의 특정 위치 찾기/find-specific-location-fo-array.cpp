@@ -13,7 +13,7 @@ int main() {
         if(i%2!=0){
             sum_1 += arr[i];
         }
-        if(i%2==0 && i!=0){
+        if((i + 1) % 3 == 0){
             sum_2 += arr[i];
             cnt++;
         }
